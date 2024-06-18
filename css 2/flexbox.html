@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    section {
+        background-color: black;
+        width: 100%;
+        height: 500px;
+        /* padding: 100px 5%; */
+
+    }
+
+    section .title {
+        text-align: center;
+        color:white;
+        margin: 2% 0;
+        font-size: 50px;
+        
+    }
+
+
+    .parent-container {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        /* padding: 100px 5%; */
+    }
+
+    .child-container {
+        border: 2px solid whitesmoke;
+        /* padding: 5px; */
+        width: 300px;
+
+        border-radius: 10%;
+        background-image: url(image\ 2.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .child-container img {
+        width: 100px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .overly {
+        background-color: rgba(0, 0, 0, .5);
+        padding-top: 2%;
+    }
+
+    .text-content {
+        padding: 10px;
+        color: white;
+
+    }
+
+    .text-content h2,
+    p {
+        text-align: center;
+    }
+
+
+
+    /* .child-container:hover{
+
+        background-color: rgb(228, 206, 177);
+    } */
+</style>
+
+<body>
+
+
+    <section>
+        <h2 class="title">our service</h2>
+        <div class=" parent-container">
+
+            <div class="child-container">
+
+                <div class="overly">
+                    <img src="image 1.webp" alt="">
+
+                    <div class=" text-content">
+                        <h2> 1st image</h2>
+                        <p> this is a first paragraph written in html, syled in css</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="child-container">
+                <div class="overly">
+                    <img src="image 2.webp" alt="">
+
+                    <div class=" text-content">
+                        <h2> 2nd image</h2>
+                        <p> this is a first paragraph written in html, syled in css</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="child-container">
+                <div class="overly">
+                    <img src="image 3.webp" alt="">
+
+                    <div class=" text-content">
+                        <h2> 3rd image</h2>
+                        <p> this is a first paragraph written in html, syled in css</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="child-container">
+                <div class="overly">
+                    <img src="image 1.webp" alt="">
+
+                    <div class=" text-content">
+                        <h2> 4th image</h2>
+                        <p> this is a first paragraph written in html, syled in css</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="child-container">
+                <div class="overly">
+                    <img src="image 2.webp" alt="">
+
+                    <div class=" text-content">
+                        <h2> 5th image</h2>
+                        <p> this is a first paragraph written in html, syled in css</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="child-container">
+
+                <div class="overly">
+                    <img src="image 3.webp" alt="">
+
+                    <div class=" text-content">
+                        <h2> 6th image</h2>
+                        <p> this is a first paragraph written in html, syled in css</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
